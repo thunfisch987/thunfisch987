@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "group:all",
+    ":automergeAll",
+    ":disableRateLimiting",
+    ":enableRenovate",
+    ":prConcurrentLimitNone",
+    ":prImmediately",
+    ":renovatePrefix",
+    ":respectLatest"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": "at any time"
+  },
+  "schedule": "at any time"
+}
