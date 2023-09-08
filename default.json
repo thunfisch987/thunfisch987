@@ -9,7 +9,9 @@
     ":prConcurrentLimitNone",
     ":prImmediately",
     ":renovatePrefix",
-    ":respectLatest"
+    ":respectLatest",
+    ":semanticCommits",
+    ":semanticPrefixChore"
   ],
   "lockFileMaintenance": {
     "enabled": true,
