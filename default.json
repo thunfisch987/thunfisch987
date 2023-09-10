@@ -18,7 +18,10 @@
 		"schedule": "at any time",
 		"automerge": true,
 		"automergeSchedule": [
-			"every day, after 2 AM, before 3 AM, after 12 PM, before 1 PM"
+			"after 2 AM every day",
+			"before 3 AM every day",
+			"after 12 PM every day",
+			"before 1 PM every day"
 		],
 		"commitBody": "[skip deploy]"
 	},
