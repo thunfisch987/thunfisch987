@@ -19,7 +19,8 @@
 		"automerge": true,
 		"automergeSchedule": [
 			"every day, after 2 AM, before 3 AM, after 12 PM, before 1 PM"
-		]
+		],
+		"commitBody": "[skip deploy]"
 	},
 	"schedule": "at any time"
 }
