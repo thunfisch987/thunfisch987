@@ -1,29 +1,58 @@
-{
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:base",
-		"group:all",
-		":automergeAll",
-		":disableRateLimiting",
-		":enableRenovate",
-		":prConcurrentLimitNone",
-		":prImmediately",
-		":renovatePrefix",
-		":respectLatest",
-		":semanticCommits",
-		":semanticPrefixChore"
-	],
-	"lockFileMaintenance": {
-		"enabled": true,
-		"schedule": "at any time",
-		"automerge": true,
-		"automergeSchedule": [
-			"after 2 AM every day",
-			"before 3 AM every day",
-			"after 12 PM every day",
-			"before 1 PM every day"
-		],
-		"commitBody": "[skip deploy]"
-	},
-	"schedule": "at any time"
-}
+"oldConfig": {
+         "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+         "extends": [
+           "config:base",
+           "group:all",
+           ":automergeAll",
+           ":disableRateLimiting",
+           ":enableRenovate",
+           ":prConcurrentLimitNone",
+           ":prImmediately",
+           ":renovatePrefix",
+           ":respectLatest",
+           ":semanticCommits",
+           ":semanticPrefixChore"
+         ],
+         "lockFileMaintenance": {
+           "enabled": true,
+           "schedule": "at any time",
+           "automerge": true,
+           "automergeSchedule": [
+             "after 2 AM every day",
+             "before 3 AM every day",
+             "after 12 PM every day",
+             "before 1 PM every day"
+           ],
+           "commitBody": "[skip deploy]"
+         },
+         "schedule": "at any time"
+       },
+       "newConfig": {
+         "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+         "extends": [
+           "config:recommended",
+           "group:all",
+           ":automergeAll",
+           ":disableRateLimiting",
+           ":enableRenovate",
+           ":prConcurrentLimitNone",
+           ":prImmediately",
+           ":renovatePrefix",
+           ":respectLatest",
+           ":semanticCommits",
+           ":semanticPrefixChore"
+         ],
+         "lockFileMaintenance": {
+           "enabled": true,
+           "schedule": "at any time",
+           "automerge": true,
+           "automergeSchedule": [
+             "after 2 AM every day",
+             "before 3 AM every day",
+             "after 12 PM every day",
+             "before 1 PM every day"
+           ],
+           "commitBody": "[skip deploy]"
+         },
+         "schedule": "at any time"
+       }
